@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MasterLinesLegacy';
+
+  private cadastro: any[] = []
+
+  cadastrar($event){
+    console.log('aaaaa');
+     this.cadastro.push($event)
+  }
+
 }
